@@ -4,7 +4,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet"> 
 
 <head>
-	<title>Travel Agency</title>
+	<title>Travel Agency.</title>
 </head>
 
 <header>
@@ -59,39 +59,51 @@
 
 	<div id="part_3">
 <!-- 		*/fond gris + 2 images titre / description / button/* -->
-		<div>
-			<span>
-				<img src="images/article-image-1.jpg">
-			</span>
-			<span>
-				<h3>PARTEZ EN FAMILLE<h3>
-				Lorem 50
-			</span>
+		<article style="background-image:url(/images/article-image-1.jpg)">
+			<div class="overlay">
+				<h3>Partez en famille</h3>
+				<p><small>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</small></p>
+				<a href="#" class="button_2">Plus d'infos</a>
+			</div>
+		</article>
 
-		</div>
+		<article style="background-image:url(/images/article-image-2.jpg)">
+			<div class="overlay">
+				<h3>Envie de s'évader</h3>
+				<p><small>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</small></p>
+				<a href="#" class="button_2">Plus d'infos</a>
+			</div>
+		</article>
 
-		<div>
-			<span>
-				<img src="images/article-image-2.jpg">
-			</span>
-			<span>
-				<h3>ENVIE DE S'EVADER<h3>
-				Lorem 50		
-		</div>
+
 	</div>
 <br>
 	<div id="part_4">
 		<!--titre contactez nous + blabla + NOM : form avec votre nom + Email : form avec Votre email + Bouton OK bleu arrondi-->
-		<h3 style="text-align:center">Contactez nous</h3>
+		<h3>Contactez-nous</h3>
+		<p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.</p>
+		<div class="formulaire">
+			<form>
+				<label for="name">Nom</label>
+				<input type="text" id="name" placeholder="Votre nom"></form>
+			</form>
+			<form>
+				<label for="name">Email</label>
+				<input type="email" id="email" placeholder="Votre email"></form>
+			</form>
+			<form>
+				<input type="submit" id="Ok_contact" value="OK"></input>
+			</form>
+		</div>
 	</div>
 <br>
 </body>
 
 <footer>
 	<!-- */informations générales/* Travel Agency + Copyright-->
-	<div style="color:white">
-		<h3>Travel Agency</h3>
-		Copyright because copyright
+	<div>
+		<h1>Travel Agency<span style="color:orange">.</span></h1>
+		<p>Copyright © 2021. Tous droits réservés.</p>
 	</div>
 </footer>
 

@@ -29,6 +29,13 @@ a {
 	font-family: arial, sans-serif;
 }
 
+
+
+
+
+
+
+
 .wrapper {
 	width: 940px;
 	margin: 0 auto;
@@ -55,6 +62,15 @@ header h1 {
 	text-transform: uppercase;
 	margin-right: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 #part_1 {
 	height: 580px;
@@ -85,6 +101,14 @@ header h1 {
 .button1:hover{
 	background:#02B8DD ;
 }
+
+
+
+
+
+
+
+
 
 #part_2{
 	/* height: 500px; */
@@ -118,4 +142,143 @@ header h1 {
 	font-family: "crete-round";
 	font-weight: lighter;
 	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+
+
+#part_3{
+	display: flex;
+	width: 100vw;
+	background-color: #efefef;
+	padding: 60px 0px;
+	justify-content: space-evenly;
+}
+
+article{
+	width: 460px;
+	height: 270px;
+	/* background-size: fit-content;
+	background-repeat: no-repeat; */
+	border-radius: 3%;
+	margin-left: 15px;
+}
+
+.overlay{
+	background-color:rgba(228, 228, 228,0.9);
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-top-left-radius: 3%;
+	border-bottom-left-radius: 3%;
+}
+
+.overlay h3{
+	text-transform: uppercase;
+	margin: 10px;
+	padding-bottom: 15px;
+	border-bottom: rgba(120,135,155,0.3) 1px solid;
+}
+
+.overlay p{
+	margin: 10px;
+	font-style: italic;
+	color: lightslategray;
+}
+
+.overlay a{
+	margin: 10px;
+	width: 100px;
+	height: 25px;
+	background: #ff7a00;
+	color:#fff;
+	font-size: 15px;
+	text-align: center;
+	margin:0 auto;
+	line-height: 150%;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+#part_4{
+	text-align:center;
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#part_4 h3{
+	border-bottom: #1fd0f3 2px solid;
+	padding: 20px 60px;
+	width: max-content;
+	text-transform: uppercase;
+}
+
+#part_4 p{
+	margin: 20px;
+	color: #777;
+	font-size: 15px;
+}
+
+#part_4 div{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.formulaire form{
+	margin-left:20px;
+	height: 30px;
+	background-color: red;
+	display: flex;
+	align-items: center;
+}
+
+#ok_contact{
+	color: #02B8DD;
+}
+
+footer{
+	background-color: rgb(53, 53, 53);
+	color: white;
+	font-size: 10px;
+	padding: 10px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+footer h1{
+	color: white;
+	font-family: "crete round", serif;
+	font-size: 45px;
+}
+
+footer p{
+	margin-top: 20px;
+	font-size: 15px;
+	color: dimgray;
+	font-weight: bold;
 }
