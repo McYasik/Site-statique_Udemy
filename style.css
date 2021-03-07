@@ -211,8 +211,9 @@ article{
 	box-sizing: border-box;
 }
 
-
-
+.overlay a:hover{
+	background: #02B8DD;
+	color:#fff;
 
 
 
@@ -248,13 +249,43 @@ article{
 .formulaire form{
 	margin-left:20px;
 	height: 30px;
-	background-color: red;
 	display: flex;
 	align-items: center;
 }
 
-#ok_contact{
-	color: #02B8DD;
+.formulaire label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+
+.formulaire input[type="text"], input[type="email"]{
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 10px;
+	border:2px solid #ddd;
+	border-radius: 3px;
+}
+
+.formulaire input[type="submit"]{
+	background:#02B8DD;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	border-style: none;
+	border-radius: 3px;
+}
+
+.formulaire input[type="submit"]:hover{
+	background:#444;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	border-style: none;
+	border-radius: 3px;
 }
 
 footer{
